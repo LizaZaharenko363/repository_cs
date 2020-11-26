@@ -8,12 +8,12 @@ using namespace std;
 
 int main()
 {
-	double y, x1, x2, x, h;
+	double z, x1, x2, x, h;
 	cin >> x1 >> x2 >> h;
 	x = x1;
 	while (x <= x2) {
-		y = exp(x) + abs(x) + pow(x,2);
-		cout << setw(10) << x << setw(10) << y << endl;
+		z = exp(x) + abs(x) + pow(x,2);
+		cout << setw(12) << x << setw(12) << z << endl;
 		x += h;
 	} ;
 }
